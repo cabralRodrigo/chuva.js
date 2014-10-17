@@ -165,6 +165,7 @@ class Chuva {
     /**
       * Atualiza a posição de cada gota e renderiza o frame
       * É necessário usar essa sintaxe pois no segundo frame em diante a palavra-chave "this" perde sua referência para a instância da classe
+      * Ref: http://stackoverflow.com/questions/21924719/how-to-use-requestanimationframe-with-a-typescript-object
       */
     private renderizarFrame = () => {
         this.limparFrame();
